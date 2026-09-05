@@ -1,0 +1,72 @@
+# ====================================================================
+# NTN-OFDM C++ Simulator — .gitignore
+# ====================================================================
+
+# Build & Compilation Artifacts
+build/
+bin/
+lib/
+out/
+_build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Compiler Debug & Dependency Files
+*.d
+*.pdb
+*.idb
+*.ilk
+*.gch
+*.pch
+
+# IDE / Editor Files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python Virtual Environments & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+
+# Temporary / Log Files
+*.log
+*.tmp
+*.dmp
+
+# Internal Prompts, Notes & Interview Prep (Kept Local)
+docs/
+prompt.md
+prompt*.md
+*.prompt

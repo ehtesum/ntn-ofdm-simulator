@@ -1,0 +1,8 @@
+scenario,ber,evm_pct,notes
+"Scenario A — Ideal",0.000000e+00,0.00,"Back-to-back transceiver baseline (no noise/impairments)"
+"Scenario B — AWGN",0.00e+00,13.63,"AWGN channel at 15 dB SNR (matches Q-function bound)"
+"Scenario C — CFO",5.00e-01,142.02,"AWGN (15 dB) + 1.8 kHz oscillator CFO (constellation rotates)"
+"Scenario D — Doppler",4.81e-01,128.07,"AWGN (15 dB) + LEO orbital Doppler (link outage)"
+"Scenario E — CFO + Doppler",4.99e-01,141.75,"AWGN (15 dB) + CFO + LEO Doppler (complete failure)"
+"Scenario F — Compensated",1.41e-03,37.08,"Full CP correlation & Doppler tracking (link restored)"
+"Scenario G — ICI Mitigated",1.44e-03,37.03,"Full sync + Banded tridiagonal ICI equalizer"
